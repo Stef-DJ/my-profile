@@ -1,7 +1,7 @@
 body{
     font-family: Consolas, monaco, monospace, Arial, sans-serif;
     margin: 0;
-    background-color: black;
+    background-color: #181818;
 }
 
 .top-bar {
@@ -9,7 +9,8 @@ body{
     display: flex;
     gap: 1em;
     height: 5vh;
-    border-bottom: 3px solid #1f1f1f;
+    max-height: 50px;
+    border-bottom: 3px solid #333333;
     color: white;
     font-size: 12px;
 }
@@ -22,14 +23,15 @@ body{
 
 .main-grid-container {
     display: flex;
-    height: 120vh;
+    height: 90vh;
+    min-height: 420px;
     margin-bottom: 0;
     background-color: #1f1f1f;
 }
 
 
 .side-nav-bar {
-    border-right: 3px solid #1f1f1f;
+    border-right: 3px solid #333333;
     background-color: #181818;
     display:flex;
     flex-direction:column;
@@ -37,6 +39,7 @@ body{
     flex: 1;
     max-width: 50px;
     min-width: 3em;
+    padding-top:15px;
 }
 .side-nav-bar div{
     text-align: center;
@@ -76,18 +79,54 @@ img {
 }
 .tab-bar{
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: #181818;
+    list-style-position: inside;
+    margin-top: 0;
+    /* height: 2.5rem; */
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
 }
+.tab-bar li{
+    border-right: #333333 solid 0.2rem;
+    border-bottom: #333333 solid 0.1rem;
+    /* background-color: pink; */
+    width: 150px;
+    padding: 1rem 0 1rem 7px;
+}
+.tab-bar .empty-item{
+    color: #181818;
+    border-right: none;
+    padding: 1rem 0 1rem 7px;
+    flex: 1;
+}
+.tab-bar .selected-tab{
+    background-color: #1f1f1f;
+    border-bottom: #1f1f1f solid 0.1rem;
+}
+.tab-bar li:nth-child(1){
+    list-style-image: url('img/info.png');
+}
+.tab-bar li:nth-child(2){
+    list-style-image: url('img/html.png');
+}
+.tab-bar li:nth-child(3){
+    list-style-image: url('img/css.png');
+}
+
+
+
 
 footer{
     display: flex;
     gap: 1rem;
     margin-top: 0;
-    border-top: 3px solid #1f1f1f;
+    border-top: 3px solid #333333;
     background-color: #181818;
     color: #cccccc;
     font-size: smaller;
-    height: 5vh;
+    height: 4vh;
 }
 
 footer div {
