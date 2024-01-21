@@ -5,9 +5,9 @@ body{
 }
 
 .top-bar {
-    background-color: #181818;
+    background-color: #1f1f1f;
     display: flex;
-    gap: 1em;
+    gap: 1rem;
     height: 5vh;
     max-height: 50px;
     border-bottom: 3px solid #333333;
@@ -15,9 +15,27 @@ body{
     font-size: 12px;
 }
 .top-bar div{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     padding-left: 5px;
+    padding-top: 5px;
+    width: 15vw;
+}
+.top-bar .rounded-corners{
+    background-color: #333333;
+    border-radius: 8px;
+    border: 2px solid #4b4b4b;
+    padding: 0.5rem 10%;
+    margin: 4px 0;
+    color: #9d9d9d;
+    display: flex;
+    gap: 1em;
+    min-width: 8rem;
+    /* max-width: 50px; */
+}
+.top-bar .search-icon{
+    width: auto;
+    height: 1rem;
 }
 
 
@@ -120,13 +138,14 @@ img {
 
 footer{
     display: flex;
-    gap: 1rem;
+    gap: 5%;
     margin-top: 0;
     border-top: 3px solid #333333;
     background-color: #181818;
     color: #cccccc;
     font-size: smaller;
     height: 4vh;
+    align-items: center;
 }
 
 footer div {
@@ -134,4 +153,6 @@ footer div {
     margin-bottom: 0;
     padding-left: 0;
     padding-bottom: 0;
+    text-wrap: nowrap;
+    text-overflow: clip;
 }
