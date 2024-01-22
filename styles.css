@@ -146,6 +146,7 @@ footer{
     font-size: smaller;
     height: 4vh;
     align-items: center;
+
 }
 
 footer div {
@@ -153,6 +154,12 @@ footer div {
     margin-bottom: 0;
     padding-left: 0;
     padding-bottom: 0;
-    text-wrap: nowrap;
     text-overflow: clip;
+}
+
+footer .icon{
+    padding: 1.3vh 0.8em;
+    background-color: #1f88d9;
+    color: white;
+    
 }
