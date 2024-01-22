@@ -15,7 +15,6 @@ body{
     font-size: 12px;
 }
 .top-bar section{
-    /* display: flex; */
     align-items: center;
     padding-left: 5px;
     padding-top: 5px;
@@ -31,7 +30,6 @@ body{
     display: flex;
     gap: 1em;
     min-width: 8rem;
-    /* max-width: 50px; */
 }
 .top-bar .search-icon{
     width: auto;
@@ -101,7 +99,6 @@ img {
     background-color: #181818;
     list-style-position: inside;
     margin-top: 0;
-    /* height: 2.5rem; */
     align-items: center;
     margin: 0;
     padding-left: 0;
@@ -109,7 +106,6 @@ img {
 .tab-bar li{
     border-right: #333333 solid 0.2rem;
     border-bottom: #333333 solid 0.1rem;
-    /* background-color: pink; */
     width: 150px;
     padding: 1rem 0 1rem 7px;
 }
