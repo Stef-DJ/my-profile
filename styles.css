@@ -132,6 +132,14 @@ img {
 .tab-bar li:nth-child(3){
     list-style-image: url('img/css.png');
 }
+.tab-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.tab-bar :hover{
+    background-color: #1f1f1f;
+}
 
 
 
@@ -162,4 +170,14 @@ footer .icon{
     background-color: #1f88d9;
     color: white;
     
+}
+
+.bluecolor{
+    color: #286bcc;
+}
+.lightbluecolor{
+    color: #8cdcfe;
+}
+.orangecolor{
+    color: #ce9178;
 }
