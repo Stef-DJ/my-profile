@@ -14,7 +14,7 @@ body{
     color: white;
     font-size: 12px;
 }
-.top-bar div{
+.top-bar section{
     /* display: flex; */
     align-items: center;
     padding-left: 5px;
@@ -59,7 +59,7 @@ body{
     min-width: 3em;
     padding-top:15px;
 }
-.side-nav-bar div{
+.side-nav-bar section{
     text-align: center;
 }
 .spacer {
@@ -140,7 +140,9 @@ img {
 .tab-bar :hover{
     background-color: #1f1f1f;
 }
-
+.main-text{
+    padding-right: 10vw;
+}
 
 
 
@@ -157,7 +159,7 @@ footer{
 
 }
 
-footer div {
+footer section {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
